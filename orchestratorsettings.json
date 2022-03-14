@@ -1,0 +1,9 @@
+{
+  "modelPath": "C:\\Users\\Naidu\\Desktop\\botbuilder-samples\\02.echo-bot\\model",
+  "snapshotPath": "C:\\Users\\Naidu\\Desktop\\botbuilder-samples\\02.echo-bot\\generated\\orchestrator.blu",
+  "dataSources": {
+    "hierarchical": false,
+    "inputs": [],
+    "path": ""
+  }
+}

@@ -1,0 +1,109 @@
+
+> LUIS application information
+> !# @app.name = Miracle Pharma Bot
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# Greets
+- good afternoon
+- good evening.
+- good morning.
+- good night.
+- greetings of the day.
+- hai
+- hello
+- hello!
+- hi
+- hi!
+- hieee
+- hlo
+- nice to meet you.
+- pleasant morning to you.
+
+
+# Medicine_order_status
+- 1234
+- 4321 is my order number
+- 5267 is the order number
+- can i know the status of my ordered medicine?
+- i want to know status of my order ?
+- i would like to know the status of my order ?
+- my ordered number is 1234
+- show me the status of my order ?
+- this is my order number : 2367
+- want to know the order status ?
+- what is my order status ?
+- what is status of my order?
+- when the medicine was arrived ?
+- when the medicine was reaches to me ?
+- when was the order reaches to me ?
+
+
+# None
+
+
+# Schedule_Appointment
+- book an appointment.
+- can i have an appointment with doctor {@Dateandtime=next week}.
+- can i have an appointment with doctor {@Dateandtime=this week}.
+- can you arrange the appointment with doctor.
+- i need an appointment with doctor.
+- i want an appointment with doctor {@Dateandtime=tomorrow}.
+- i would like to consult a doctor {@Dateandtime=today}.
+- please schedule a appointment {@Dateandtime=right now}.
+- please schedule an appointment with doctor.
+- provide an appointment with doctor.
+- schedule an appointment {@Dateandtime=day after tomorrow}.
+- schedule an appointment {@Dateandtime=today}.
+- shall i have an appointment with doctor on {@Dateandtime=april 4th 2022}
+
+
+# store_location
+- can i know your store location ?
+- do me a favour and tell me the store location
+- have i know the location of store ?
+- in novi where the store was located ?
+- please give the location information of your store.
+- please include information about your store's location.
+- please provide your store's address.
+- what was the location of the store in novi?
+- where is your store located in novi
+- where is your store location ?
+- where was the store in novi ?
+- will the store be open on sunday?
+
+
+# store_timings
+- is store open at 8 am?
+- what are the opening and closing hours of the store?
+- what are the store hours?
+- what is the store hours ?
+- what is the store timings?
+- what time did the store open?
+- what were the hours of the store?
+- when did the shop close?
+- will the store open at 10pm ?
+
+
+> # Entity definitions
+
+@ ml Dateandtime
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+@ regex OrderId = /[0-9]{4}/
+
